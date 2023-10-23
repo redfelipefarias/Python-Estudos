@@ -1,0 +1,71 @@
+{
+  "nbformat": 4,
+  "nbformat_minor": 0,
+  "metadata": {
+    "colab": {
+      "provenance": [],
+      "authorship_tag": "ABX9TyMzwpxz/6HgkD1JS+clL+qv",
+      "include_colab_link": true
+    },
+    "kernelspec": {
+      "name": "python3",
+      "display_name": "Python 3"
+    },
+    "language_info": {
+      "name": "python"
+    }
+  },
+  "cells": [
+    {
+      "cell_type": "markdown",
+      "metadata": {
+        "id": "view-in-github",
+        "colab_type": "text"
+      },
+      "source": [
+        "<a href=\"https://colab.research.google.com/github/redfelipefarias/Python-Estudos/blob/main/cadastro_atividade\" target=\"_parent\"><img src=\"https://colab.research.google.com/assets/colab-badge.svg\" alt=\"Open In Colab\"/></a>"
+      ]
+    },
+    {
+      "cell_type": "code",
+      "execution_count": 47,
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "vu-2TCWwpQQA",
+        "outputId": "625bb80c-b601-49bc-f034-53791a9d3fd9"
+      },
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "Seu Nome: Lucas\n",
+            "Seu sobrenome: Farias\n",
+            "Sua Idade: 20\n",
+            "Endereço: Rua Projetada\n",
+            "Qual seu sexo: Masculino\n",
+            "Olá, meu nome é Lucas Farias, tenho 20 anos, moro em Rua Projetada e sou do sexo Masculino. \n"
+          ]
+        }
+      ],
+      "source": [
+        "class Pessoa:\n",
+        "   def __init__(self, nome, idade, endereco, sexo):\n",
+        "      self.nome = nome\n",
+        "      self.sobrenome = sobrenome\n",
+        "      self.idade = idade\n",
+        "      self.endereco = endereco\n",
+        "      self.sexo = sexo\n",
+        "nome = input('Seu Nome: ')\n",
+        "sobrenome = input('Seu sobrenome: ')\n",
+        "idade = input('Sua Idade: ')\n",
+        "endereco = input('Endereço: ')\n",
+        "sexo = input('Qual seu sexo: ')\n",
+        "\n",
+        "print(f\"Olá, meu nome é {nome} {sobrenome}, tenho {idade} anos, moro em {endereco} e sou do sexo {sexo}. \")"
+      ]
+    }
+  ]
+}
